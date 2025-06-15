@@ -33,10 +33,4 @@ ChatLog.propTypes = {
   remoteSenderColor: PropTypes.string,
 };
 
-// Cleaner version
-// ChatLog.propTypes = {
-//   entries: PropTypes.array.isRequired,
-//   likeMessage: PropTypes.func.isRequired,
-// };
-
 export default ChatLog;

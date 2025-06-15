@@ -33,6 +33,7 @@ button {
 .chat-entry .entry-name {
   font-size: medium;
   margin-bottom: 0.5rem;
+  color: black;
 }
 
 .chat-entry .entry-time {
@@ -56,6 +57,7 @@ button {
 /* "local" messages are shown on the left side */
 .chat-entry.local {
   text-align: left;
+
 }
 
 .chat-entry.local .entry-time {
@@ -74,6 +76,7 @@ button {
 /* "remote" messages are shown on the right side, in blue */
 .chat-entry.remote {
   text-align: right;
+
 }
 
 .chat-entry.remote .entry-bubble {

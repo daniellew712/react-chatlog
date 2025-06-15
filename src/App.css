@@ -72,3 +72,17 @@
 .purple {
   color: purple
 }
+
+.sub-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  background-color: grey;
+}
+
+.sender-color {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
